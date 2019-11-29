@@ -1,0 +1,38 @@
+body {
+    background-color: #000;
+}
+
+button {
+    margin: 10px;
+}
+
+img {
+    display: block;
+    height: 500px;
+    width: auto;
+    box-sizing: border-box;
+    display: none;
+}
+
+.img1 {
+    width: 890px;
+}
+
+.show {
+    display: block;
+}
+
+body {
+    display: flex;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 8px;
+    margin: 30vh auto 0 -200px;
+}
+
+button:focus {
+    outline: none;
+}
